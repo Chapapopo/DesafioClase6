@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+
+<body>
+
+    {{{body}}}
+
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <script>
+        console.log("hola")
+        const socket = io();
+
+        socket.on("listaActualizada", (productos) => {
+            console.log("Productos actualizados:", productos);
+            renderizarProductos(productos);
+        });
+
+        // Función para renderizar la lista de productos en el HTML
+        function renderizarProductos(productos) {
+            const listaProductos = document.getElementById("lista-productos");
+
+            // Limpiar la lista antes de agregar los nuevos productos
+            listaProductos.innerHTML = "";
+
+            // Iterar sobre los productos y agregarlos a la lista
+            productos.forEach(producto => {
+                const li = document.createElement("li");
+                li.innerHTML = `
+                    <h2>${producto.titulo}</h2>
+                    <p>${producto.descripcion}</p>
+                    <p>Código: ${producto.code}</p>
+                    <p>Precio: $${producto.precio}</p>
+                    <p>Estado: ${producto.estado}</p>
+                    <p>Cantidad: ${producto.cantidad}</p>
+                    <p>Categoría: ${producto.categoria}</p>
+                    <img src="${producto.imagen}" alt="${producto.titulo}">
+                `;
+                listaProductos.appendChild(li);
+            });
+        }
+
+    </script>
+</body>
+
+</html>

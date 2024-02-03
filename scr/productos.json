@@ -1,0 +1,158 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "papa",
+      "descripcion": "Descripción del Producto 1",
+      "code": "ABC123",
+      "precio": 20.99,
+      "Estado": true,
+      "cantidad": 0,
+      "categoria": "categoria 1",
+      "imagen": "imagen1.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Producto 2",
+      "descripcion": "Descripción del Producto 2",
+      "code": "DEF456",
+      "precio": 10.99,
+      "Estado": true,
+      "cantidad": 5,
+      "categoria": "categoria 2",
+      "imagen": "imagen2.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Producto 3",
+      "descripcion": "Descripción del Producto 3",
+      "code": "GHI789",
+      "precio": 15.75,
+      "Estado": true,
+      "cantidad": 8,
+      "categoria": "categoria 3",
+      "imagen": "imagen3.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Producto 4",
+      "descripcion": "Descripción del Producto 4",
+      "code": "JKL012",
+      "precio": 25.5,
+      "Estado": true,
+      "cantidad": 11,
+      "categoria": "categoria 1",
+      "imagen": "imagen4.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Producto 5",
+      "descripcion": "Descripción del Producto 5",
+      "code": "MNO345",
+      "precio": 30.25,
+      "Estado": true,
+      "cantidad": 6,
+      "categoria": "categoria 2",
+      "imagen": "imagen5.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Producto 6",
+      "descripcion": "Descripción del Producto 6",
+      "code": "PQR678",
+      "precio": 18.5,
+      "Estado": true,
+      "cantidad": 10,
+      "categoria": "categoria 3",
+      "imagen": "imagen6.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Producto 7",
+      "descripcion": "Descripción del Producto 7",
+      "code": "STU901",
+      "precio": 22.99,
+      "Estado": true,
+      "cantidad": 7,
+      "categoria": "categoria 1",
+      "imagen": "imagen7.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "Producto 8",
+      "descripcion": "Descripción del Producto 8",
+      "code": "VWX234",
+      "precio": 12.75,
+      "Estado": true,
+      "cantidad": 9,
+      "categoria": "categoria 2",
+      "imagen": "imagen8.jpg"
+    },
+    {
+      "id": 9,
+      "titulo": "Producto 9",
+      "descripcion": "Descripción del Producto 9",
+      "code": "YZA567",
+      "precio": 28,
+      "Estado": true,
+      "cantidad": 3,
+      "categoria": "categoria 3",
+      "imagen": "imagen9.jpg"
+    },
+    {
+      "id": 10,
+      "titulo": "Producto 10",
+      "descripcion": "Descripción del Producto 10",
+      "code": "BCD890",
+      "precio": 17.99,
+      "Estado": true,
+      "cantidad": 11,
+      "categoria": "categoria 1",
+      "imagen": "imagen10.jpg"
+    },
+    {
+      "id": 11,
+      "titulo": "Nuevo Producto mnuhm ",
+      "descripcion": "Descripción",
+      "code": "NOW456",
+      "precio": 5,
+      "estado": true,
+      "cantidad": 15,
+      "categoria": "Nueva Categoría",
+      "imagen": ""
+    },
+    {
+      "id": 12,
+      "titulo": "Nuevo Producto mnuhm ",
+      "descripcion": "Descripción",
+      "code": "NOW656",
+      "precio": 5,
+      "estado": true,
+      "cantidad": 15,
+      "categoria": "Nueva Categoría",
+      "imagen": ""
+    },
+    {
+      "id": 13,
+      "titulo": "Nuevo Producto mnuhm ",
+      "descripcion": "Descripción",
+      "code": "NOW856",
+      "precio": 5,
+      "estado": true,
+      "cantidad": 15,
+      "categoria": "Nueva Categoría",
+      "imagen": ""
+    },
+    {
+      "id": 15,
+      "titulo": "Nuevo Producto mnuhm ",
+      "descripcion": "Descripción",
+      "code": "N16836",
+      "precio": 5,
+      "estado": true,
+      "cantidad": 15,
+      "categoria": "Nueva Categoría",
+      "imagen": ""
+    }
+  ]
+}
